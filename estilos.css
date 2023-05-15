@@ -1,5 +1,16 @@
+header{
+    margin: 0%;
+    background-color: #000000;
+}
 h1{
+    margin: 0%;
+    text-align: center;
     font-weight: 800;
+    color: aliceblue;
+}
+main{
+    display: flex;
+    justify-content: center;
 }
 .sectionh{
     display: block;
@@ -8,12 +19,13 @@ h1{
     text-decoration: none;
     list-style: none;
     display: flex;
+    justify-content: center;
 }
 header ul{
-    color: #000000;
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid black;
     padding: 4px;
     border-radius: 4px;
+    margin: 0%; 
 }
 header li{
     margin-right: 10px;
@@ -27,13 +39,22 @@ main img{
     border: 2px solid rgb(0, 0, 0);
     padding: 5px;
     border-radius: 5px;
+    transition: .4s ease;
+}
+.botonms:hover{
+    background-color: rgba(0, 0, 0, 0.925);
+    color: #DEDEDE;
 }
 .salbums{
-    display: flex;
-    justify-content: center;
+    margin: 5%;
 }
 .imagen{
+    margin: 10px;
     margin-right: 50px;
+    transition: 0.5s ease;
+}
+.imagen:hover{
+    transform: scale(1.15);
 }
 .sectionn{
     display: flex;
@@ -42,7 +63,14 @@ main img{
 .botonesf{
     display: flex;
     list-style: none;
+    margin-right: 5px;
 }
 footer img{
-    width: 50px ;
+    width: 30px ;
+}
+footer{
+    background-color: #000000;
+}
+main{
+    background-color: #DEDEDE;
 }
